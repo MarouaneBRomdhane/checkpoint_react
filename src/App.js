@@ -1,6 +1,6 @@
 // App.js
 import React from "react";
-import { Navbar, Container, Nav, Card, CardDeck } from "react-bootstrap";
+import { Navbar, Container, Nav, Card, Button } from "react-bootstrap";
 
 function App() {
   return (
@@ -18,11 +18,32 @@ function App() {
         <h1>Welcome to Your App</h1>
 
         {/* Cards */}
-        <CardDeck>
-          <Card>{/* Card 1 content */}</Card>
-          <Card>{/* Card 2 content */}</Card>
-          <Card>{/* Card 3 content */}</Card>
-        </CardDeck>
+        <Card>
+          <Card.Body>
+            <Card.Title>Card 1</Card.Title>
+            <Card.Text>This is the content of Card 1.</Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+
+        <Card>
+          <Card.Body>
+            <Card.Title>Card 2</Card.Title>
+            <Card.Text>This is the content of Card 2.</Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+
+        <Card>
+          <Card.Body>
+            <Card.Title>Card 3</Card.Title>
+            <Card.Text>This is the content of Card 3.</Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+
+        {/* Button */}
+        <Button variant="primary">Click me</Button>
       </div>
     </>
   );
