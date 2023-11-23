@@ -38,7 +38,6 @@ function App() {
           <Card.Body>
             <Card.Title>Card 3</Card.Title>
             <Card.Text>This is the content of Card 3.</Card.Text>
-            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
 
